@@ -18,6 +18,7 @@ String conCate(String from, String to) {
 
 Future convertCurrency(double cash, String from, String to) async {
   String curCode = conCate(from, to);
+  // ignore: non_constant_identifier_names
   final URL = domain + curCode + apiKey + compact;
 
   var data = await http.get(URL);

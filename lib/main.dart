@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
   var cAmount;
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: Text(
